@@ -5,6 +5,6 @@ def simple_multiplication(number):
     else:
         return number*9
 
-# Second methodz
+# Second method
 def simple_multiplication(number):
     return number * (8 if number % 2 == 0 else 9)
