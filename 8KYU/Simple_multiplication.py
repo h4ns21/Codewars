@@ -4,8 +4,6 @@ def simple_multiplication(number):
         return number*8
     else:
         return number*9
-    
-print(simple_multiplication(1))
 
 # Second method
 def simple_multiplication(number):
