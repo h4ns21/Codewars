@@ -1,5 +1,5 @@
 # First method
-def get_count(sentence):
+def getCount(sentence):
     count = 0
     vowels = set('AaEeIiOoUu')
     for c in sentence:
