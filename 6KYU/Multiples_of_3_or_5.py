@@ -1,4 +1,4 @@
-# 1
+# First solution
 
 def solution(n):
     result = []
@@ -7,7 +7,7 @@ def solution(n):
             result.append(i)
     return sum(result)
 
-# 2
+# Second solution
 
 def solution(n):
     return sum(i for i in range(n) if i % 3 == 0 or i % 5 == 0)
