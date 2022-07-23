@@ -1,3 +1,4 @@
+```cs
 using System;
 
 public class Kata
@@ -7,3 +8,4 @@ public class Kata
         return s.Substring(1, s.Length-2);
     }
 }
+```
