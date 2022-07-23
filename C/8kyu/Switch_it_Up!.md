@@ -1,4 +1,6 @@
-/* First method */
+# First solution
+
+```c
 char* switchItUp(int n)
 {
   switch (n) {
@@ -15,11 +17,15 @@ char* switchItUp(int n)
     default: return "";
   }
 }
+```
 
-/* Second method */
+# Second solution
+
+```c
 char* switchItUp(int n)
 {
   const char *enumeration[] =
   { "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" };
   return enumeration[n];
 }
+```
