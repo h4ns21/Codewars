@@ -1,5 +1,6 @@
 # First method
 
+```python
 def sum_of_integers_in_string(n):
     t = "0"
     sum = 0
@@ -10,10 +11,13 @@ def sum_of_integers_in_string(n):
             sum += int(t)
             t = "0"
     return sum + int(t)
+```
 
 # Second method
 
+```python
 import re
 
 def sum_of_integers_in_string(s):
     return sum(int(x) for x in re.findall(r"(\d+)", s))
+```
