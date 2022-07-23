@@ -1,4 +1,6 @@
 # First method
+
+```python
 def calculate_age(year_of_birth, current_year):
     age = current_year - year_of_birth
     if current_year == year_of_birth:
@@ -11,8 +13,11 @@ def calculate_age(year_of_birth, current_year):
         return 'You will be born in ' + str(abs(age)) + ' year.'
     else: # current_year < year_of_birth:
         return 'You will be born in ' + str(abs(age)) + ' years.'
-        
+```        
+    
 # Second method
+
+```python
 def calculate_age(year_of_birth, current_year):
     year = current_year - year_of_birth
     if year > 1: return f'You are {year} years old.'
@@ -20,3 +25,4 @@ def calculate_age(year_of_birth, current_year):
     if year == -1: return f'You will be born in {abs(year)} year.'
     if year < 0: return f'You will be born in {abs(year)} years.'
     else: return 'You were born this very year!'
+```
