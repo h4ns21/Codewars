@@ -1,5 +1,6 @@
 # First solution
 
+```python
 def sort_array(source_array):
     sorted_odds = sorted([i for i in source_array if i % 2 != 0])  # sort odd numbers in ascending order
     new_list = []  # creating a new list
@@ -9,9 +10,12 @@ def sort_array(source_array):
         else:
             new_list.append(i)  # appending the even numbers
     return list(new_list)
-  
+```
+
   # Second solution
-  
+
+```python
   def sort_array(source_array):
   odds = sorted((i for i in source_array if i % 2 != 0), reverse=True)
   return [i if i % 2 == 0 else odds.pop() for i in source_array]
+```
