@@ -1,4 +1,6 @@
-// First method
+# First solution
+
+```cs
 using System;
 
 public static class Kata 
@@ -10,11 +12,15 @@ public static class Kata
           Websites[i] = "codewars";
   }
 }
+```
 
-// Second method
+# Second solution
+
+```cs
 using System.Linq;
 
 public static class Kata 
 {
   public static string[] Websites = Enumerable.Repeat("codewars", 1000).ToArray();
 }
+```
