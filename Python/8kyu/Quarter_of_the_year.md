@@ -1,5 +1,6 @@
 # First method
 
+```python
 def quarter_of(month):
     if month == 1 or month == 2 or month == 3:
         return 1
@@ -9,8 +10,11 @@ def quarter_of(month):
         return 3
     elif month == 10 or month == 11 or month == 12:
         return 4
-      
+```
+
 # Second method
 
+```python
 def quarter_of(n):
     return (n + 2) // 3
+```
