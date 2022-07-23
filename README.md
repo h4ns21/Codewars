@@ -1,2 +1,2 @@
 # Codewars
-Various challenges of the Codewars platform :)
+Various challenges of the Codewars platform.
