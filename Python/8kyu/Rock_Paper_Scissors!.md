@@ -1,5 +1,6 @@
 # First method
 
+```python
 def rps(p1, p2):
     if p1 == 'rock' and p2 == 'scissors':
         return "Player 1 won!"
@@ -15,9 +16,11 @@ def rps(p1, p2):
         return "Player 2 won!"
     else:
         return "Draw!"
-
+```
+    
 # Second method
 
+```python
 def rps(p1, p2):
     beats = {'rock': 'scissors', 'scissors': 'paper', 'paper': 'rock'}
     if beats[p1] == p2:
@@ -25,3 +28,4 @@ def rps(p1, p2):
     if beats[p2] == p1:
         return "Player 2 won!"
     return "Draw!"
+```
