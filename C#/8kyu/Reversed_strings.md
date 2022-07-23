@@ -1,3 +1,4 @@
+```cs
 using System;
 
 public static class Kata
@@ -10,3 +11,4 @@ public static class Kata
     return new String(array);
   }
 }
+```
