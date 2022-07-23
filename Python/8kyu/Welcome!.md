@@ -1,5 +1,6 @@
 # First method [ EASY ]
 
+```python
 def greet(language):
     
     if language == 'czech':
@@ -36,9 +37,11 @@ def greet(language):
         return 'Croeso'
     else:
         return "Welcome"
+```
 
 # Second method [ ADVANCED ]
 
+```python
 def greet(language):
     return {
         'czech': 'Vitejte',
@@ -59,3 +62,4 @@ def greet(language):
         'swedish': 'Valkommen',
         'welsh': 'Croeso'
     }.get(language, 'Welcome')
+```
