@@ -1,4 +1,4 @@
-# First option
+# First solution
 
 ```python
 def reverse_seq(n):
@@ -6,7 +6,7 @@ def reverse_seq(n):
     return mine[::-1]
 ```
 
-# Second option
+# Second solution
 
 ```python
 def reverse_seq(n):
